@@ -1,0 +1,7 @@
+include ../author/author.pug
+
+mixin greeting(data)
+	+b('div').greeting&attributes(attributes)
+		- const { message, author } = data;
+		+e('h1').message(class='animate__animated animate__slideInDown wow', data-wow-duration='0.5s')= message
+		+author(author)(class='__author')

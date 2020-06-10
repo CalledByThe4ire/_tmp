@@ -1,0 +1,34 @@
+mixin list(modifier, list)
+	+b('ul').list(class=`--${modifier}`)&attributes(attributes)
+		- delay = 1;
+
+		each item in list
+			+e.item.item-list__(class=`animate__animated animate__fadeIn wow`, data-wow-duration= duration, data-wow-delay= `${delay += stagger}s`)
+				case modifier
+					when 'skills'
+						+e.title !{item.text}
+
+					when 'tools'
+						- const { technologies, description } = item;
+
+						each technology in technologies
+							+e.title
+								+e.link( target="_blank", href= technology.link ) !{technology.text}
+						+e('p').description !{description}
+
+					when 'projects'
+						+e('h3').title !{item.title}
+						+e('p').lead !{item.lead}
+						+e('p').description !{item.description}
+
+						if item.siteLink
+							+e('a').link( href=item.siteLink, target="_blank" )
+								| Ссылка на сайт
+
+						+e('a').link( href=item.repoLink, target="_blank" )
+							| Ссылка на&nbsp;github-репозиторий
+
+					when 'contacts'
+						+e.title
+							+e('a').link( href=item.link ) !{item.text}
+

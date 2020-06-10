@@ -1,0 +1,5 @@
+mixin author({ name, about })
+	+b('div').author&attributes(attributes)
+		- delay = 0.5;
+		+e('h2').name(class='animate__animated animate__fadeInRight wow', data-wow-duration='0.5s' data-wow-delay= `${delay += stagger}s`)= name
+		+e('p').about(class='animate__animated animate__fadeInLeft wow', data-wow-duration='0.5s' data-wow-delay= `${delay += stagger}s`)= about

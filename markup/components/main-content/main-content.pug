@@ -1,0 +1,22 @@
+include ../greeting/greeting.pug
+include ../pane/pane.pug
+include ../list/list.pug
+
+mixin main-content(data)
+	+b('main').main-content&attributes(attributes)
+		each item, index in data
+			+pane(id= item.modifier)
+				if index !== 0
+					+e.prev(href= `#${item.prev}`) ВВЕРХ
+
+					+e('h2').header(class='animate__animated animate__slideInDown wow', data-wow-duration='0.75s') !{item.content.header}
+					+list(item.modifier, item.content.list)(class='__list')
+
+					if item.content.note
+						+e('p').note(class='animate__animated animate__slideInUp wow', data-wow-duration='0.75s') !{item.content.note}
+
+				else
+					+greeting(greeting)
+
+				if index !== data.length - 1
+					+e.next(href= `#${item.next}`, class='animate__animated animate__bounceInUp wow', data-wow-duration= duration, data-wow-delay= `${delay += stagger}s`) ВНИЗ

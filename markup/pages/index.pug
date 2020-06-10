@@ -1,0 +1,15 @@
+extends _template.pug
+include ../components/page/page.pug
+
+block variables
+	- const duration = '0.25s';
+	- const stagger = 0.25;
+	- let delay;
+
+block content
+	+page(panes)
+
+		//- pug mixins go here
+
+//- block prepend scripts
+//- 	script(src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js')

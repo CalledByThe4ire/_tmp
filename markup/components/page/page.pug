@@ -1,0 +1,5 @@
+include ../main-content/main-content.pug
+
+mixin page(data)
+	+b('body').page&attributes(attributes)
+		+main-content(data)

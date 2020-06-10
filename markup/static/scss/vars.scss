@@ -1,0 +1,63 @@
+/* Variables
+   ========================================================================== */
+//== Colors
+//
+$gray-base: #000 !default;
+$gray-lighter: lighten($gray-base, 15%) !default;
+
+$color-primary: #e50000 !default;
+$color-secondary: #ffd400 !default;
+$color-tertiary: #0091ff !default;
+$color-quaternary: #19a63a !default;
+
+//== Scaffolding
+//
+$content-wrapper-bg: #fff !default;
+
+$text-color: $gray-base !default;
+
+$link-color: invert($gray-base) !default;
+$link-hover-color: $gray-base !default;
+
+$border-color: $gray-base !default;
+
+//== Typography
+//
+$regular-font-family: 'JeffScript', sans-serif !default;
+$headings-font-family: 'Bangers', sans-serif !default;
+
+//== Grid
+//
+$skew: 1.5deg !default;
+$spacing: 0.5% !default;
+
+// LostGrid
+// https://github.com/peterramsing/lost
+
+/* stylelint-disable scss/at-rule-no-unknown */
+@lost flexbox flex;
+@lost gutter 20px;
+/* stylelint-enable scss/at-rule-no-unknown */
+
+//== Media queries breakpoints
+//
+// Small screen / mobile
+$xs: 450px !default;
+
+// Small screen / tablet
+$sm: 700px !default;
+
+// Medium screen / desktop
+$md: 950px !default;
+
+// Large screen / wide desktop
+$lg: 1150px !default;
+
+$xl: 1400px !default;
+
+// Media query ranges
+$screen-xs: 'only screen and (min-width: #{$xs})';
+$screen-sm: 'only screen and (min-width: #{$sm})';
+$screen-md: 'only screen and (min-width: #{$md})';
+$screen-lg: 'only screen and (min-width: #{$lg})';
+$screen-xl: 'only screen and (min-width: #{$xl})';

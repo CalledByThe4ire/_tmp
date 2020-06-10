@@ -1,0 +1,123 @@
+.pane {
+  $pane: &;
+
+  position: relative;
+  display: table;
+  width: inherit;
+  height: inherit;
+  padding: 20px;
+
+  &__container {
+    display: table-cell;
+    overflow: hidden;
+
+    @include padding-x(10 * $spacing);
+    @include padding-y(80px);
+
+    text-align: center;
+    vertical-align: middle;
+    background-color: $content-wrapper-bg;
+    border: 10px solid $border-color;
+    box-shadow: 4px 4px 5px rgba($gray-base, 0.5);
+  }
+
+  &__header {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 24px;
+
+    @include margin-x(32px);
+
+    font-size: 36px;
+    transition: all 0.5s;
+
+    @media #{$screen-sm} {
+      font-size: 54px;
+    }
+
+    @media #{$screen-md} {
+      margin-bottom: 42px;
+      font-size: 68px;
+    }
+  }
+
+  &__note {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1;
+    transition: all 0.5s;
+
+    @media #{$screen-xs} {
+      width: 75%;
+    }
+
+    @media #{$screen-sm} {
+      font-size: 24px;
+      line-height: 1.2;
+    }
+
+    @media #{$screen-md} {
+      font-size: 32px;
+    }
+
+    @media #{$screen-lg} {
+      @include padding-x(0);
+    }
+  }
+
+  a {
+    &#{$pane}__prev,
+    &#{$pane}__next {
+      position: absolute;
+      left: 50%;
+      display: flex;
+      justify-content: center;
+      width: 80px;
+      padding: 20px;
+      margin-left: -40px;
+      font-size: 20px;
+      color: $color-primary;
+      background-color: $gray-base;
+      transform: scale(0.75);
+
+      @include raised();
+
+      @media #{$screen-sm} {
+        transform: scale(1);
+      }
+    }
+
+    &#{$pane}__prev {
+      top: 0;
+      padding-top: 29px;
+      padding-bottom: 0;
+      margin-top: 4px;
+
+      &::before {
+        position: absolute;
+        top: 4px;
+        content: '';
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid $color-primary;
+        border-left: 20px solid transparent;
+      }
+    }
+
+    &#{$pane}__next {
+      bottom: 0;
+      padding-top: 8px;
+      padding-bottom: 21px;
+      margin-bottom: 4px;
+
+      &::before {
+        position: absolute;
+        bottom: 4px;
+        content: '';
+        border-top: 20px solid $color-primary;
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+      }
+    }
+  }
+}
