@@ -114,6 +114,14 @@ const data = {
             repoLink: 'https://github.com/CalledByThe4ire/liga-bank'
           },
           {
+            title: 'RSS агрегатор',
+            lead: 'JS-Приложение',
+            description:
+              "RSS-лента новостей с&nbsp;автоматическим обновлением по&nbsp;AJAX c&nbsp;помощью <a class='item-list__link' href='https://github.com/axios/axios' target='_blank'>axios</a>.<br>Архитектура&nbsp;&#8212; <a class='item-list__link' href='https://ru.wikipedia.org/wiki/Model-View-Controller' target='_blank'>MVC</a>, браузерная инфраструктура&nbsp;&#8212; <a class='item-list__link' href='https://webpack.js.org/' target='_blank'>webpack</a>, html/css фреймворк&nbsp;&#8212; <a class='item-list__link' href='https://getbootstrap.com/' target='_blank'>bootstrap</a>. Вывод всех текстов реализован через библиотеку <a class='item-list__link' href='https://www.i18next.com/' target='_blank'>i18next</a>.",
+            siteLink: '_projects/rss-aggregator/',
+            repoLink: 'https://github.com/CalledByThe4ire/frontend-project-lvl2'
+          },
+          {
             title: 'Вычислитель отличий',
             lead: 'NodeJS-Приложение',
             description:
