@@ -25,6 +25,10 @@ mixin list(modifier, list)
 							+e('a').link( href=item.siteLink, target="_blank" )
 								| Ссылка на сайт
 
+						else if item.appLink
+							+e('a').link( href=item.appLink, target="_blank" )
+								| Ссылка на приложение
+
 						+e('a').link( href=item.repoLink, target="_blank" )
 							| Ссылка на&nbsp;github-репозиторий
 
