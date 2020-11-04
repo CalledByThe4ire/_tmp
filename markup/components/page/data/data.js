@@ -122,6 +122,14 @@ const data = {
             repoLink: 'https://github.com/CalledByThe4ire/junior-course-boilerplate'
           },
           {
+            title: 'Contact Keeper',
+            lead: 'Full-stack-приложение',
+            description:
+              "Написал менеджер контактов на&nbsp;стеке&nbsp;<a class='item-list__link' href='https://www.mongodb.com/mern-stack' target='_blank'>MERN</a> с&nbsp;системой авторизации и&nbsp;хранением информации в&nbsp;базе данных. Клиентская часть реализована на&nbsp;<a class='item-list__link' href='https://ru.reactjs.org/' target='_blank'>React</a>, серверная часть&nbsp;&mdash; на&nbsp;<a class='item-list__link' href='https://nodejs.org/en/' target='_blank'>Node.js</a>, <a class='item-list__link' href='https://expressjs.com/' target='_blank'>Express</a>&nbsp;и&nbsp;<a class='item-list__link' href='https://www.mongodb.com/' target='_blank'>MongoDB</a>.",
+            appLink: 'https://arcane-wave-48254.herokuapp.com/',
+            repoLink: 'https://github.com/CalledByThe4ire/contact-keeper'
+          },
+          {
             title: "Conway's Game of Life",
             lead: 'JS-Приложение',
             description:
