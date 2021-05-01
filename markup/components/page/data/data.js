@@ -115,6 +115,14 @@ const data = {
             repoLink: 'https://github.com/CalledByThe4ire/frontend-project-lvl4'
           },
           {
+            title: 'Play HTML',
+            lead: 'Email&#8208;рассылка',
+            description:
+              "Сверстал серию тематических адаптивных писем на Sass-версии фреймворка <a class='item-list__link' href='https://get.foundation/emails/docs/sass-guide.html' target='_blank'>Foundation For Emails</a>.",
+            appLink: '_projects/play-html',
+            repoLink: 'https://github.com/CalledByThe4ire/play-html.git'
+          },
+          {
             title: 'RSS агрегатор',
             lead: 'JS-Приложение',
             description:
