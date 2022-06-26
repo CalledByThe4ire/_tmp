@@ -102,7 +102,7 @@ const data = {
             lead:
               'Корпоративный сайт Лига Банка с кредитным калькулятором и множеством интерактивных элементов',
             description:
-              "Проект написал на&nbsp;нативном javascript (современный ESNext-синтаксис), с&nbsp;использованием препроцессоров <a class='item-list__link' href='https://pugjs.org/api/getting-started.html' target='_blank'>pug</a> и&nbsp;<a class='item-list__link' href='https://sass-lang.com/' target='_blank'>scss</a>, в&nbsp;соответствии с&nbsp;методологией <a class='item-list__link' href='https://ru.bem.info/' target='_blank'>БЭМ</a>.<br>В&nbsp;качестве сборщика проекта выбрал&nbsp;<a class='item-list__link' href='https://github.com/werty1001/bemgo/blob/master/README_RU.md' target='_blank'>BemGo</a>.",
+              "Написал проект на&nbsp;нативном javascript, с&nbsp;использованием препроцессоров <a class='item-list__link' href='https://pugjs.org/api/getting-started.html' target='_blank'>pug</a> и&nbsp;<a class='item-list__link' href='https://sass-lang.com/' target='_blank'>scss</a>, в&nbsp;соответствии с&nbsp;методологией <a class='item-list__link' href='https://ru.bem.info/' target='_blank'>БЭМ</a>.<br>В&nbsp;качестве сборщика проекта выбрал&nbsp;<a class='item-list__link' href='https://github.com/werty1001/bemgo/blob/master/README_RU.md' target='_blank'>BemGo</a>.",
             siteLink: '_projects/liga-bank/',
             repoLink: 'https://github.com/CalledByThe4ire/liga-bank'
           },
@@ -113,6 +113,14 @@ const data = {
               "Написал real-time&nbsp;чат, используя <a class='item-list__link' href='https://ru.wikipedia.org/wiki/AJAX' target='_blank'>AJAX</a>, <a class='item-list__link' href='https://ru.wikipedia.org/wiki/REST' target='_blank'>REST</a>, <a class='item-list__link' href='https://developer.mozilla.org/ru/docs/Web/API/WebSocket' target='_blank'>websockets</a>, <a class='item-list__link' href='https://reactjs.org/docs/hooks-intro.html' target='_blank'>React (с&nbsp;хуками)</a>, <a class='item-list__link' href='https://redux-toolkit.js.org/' target='_blank'>Redux (@reduxjs/toolkit)</a> и <a class='item-list__link' href='https://formik.org/' target='_blank'>Formik</a>.<br>Данное приложение является дипломным проектом от&nbsp;<a class='item-list__link' href='https://ru.hexlet.io/' target='_blank'>hexlet</a> по&nbsp;профессии <a class='item-list__link' href='https://ru.hexlet.io/professions/frontend' target='_blank'>«Фронтенд&#8209;программист»</a>. По&nbsp;итогам успешной защиты проекта получил <a class='item-list__link' href='http://andrey-karamnoff.ru/_sertificates/sertificate_hexlet_js.png' target='_blank'>сертификат</a>.",
             appLink: 'https://still-ravine-98557.herokuapp.com/',
             repoLink: 'https://github.com/CalledByThe4ire/frontend-project-lvl4'
+          },
+          {
+            title: 'Счетчик калорий',
+            lead: 'JS-приложение',
+            description:
+            "Написал приложение для&nbsp;подсчета калорий на&nbsp;нативном javascript, используя парадигму <a class='item-list__link' href='https://en.wikipedia.org/wiki/Object-oriented_programming' target='_blank'>объектно-ориентированного программирования</a>.<br>Архитектура&nbsp;&ndash; <a class='item-list__link' href='https://ru.wikipedia.org/wiki/Model-View-Controller' target='_blank'>MVC</a>, браузерная инфраструктура&nbsp;&ndash; <a class='item-list__link' href='https://webpack.js.org/' target='_blank'>webpack</a>.",
+            appLink: '_projects/calorie-counter/',
+            repoLink: 'https://github.com/CalledByThe4ire/calorie-counter'
           },
           {
             title: 'Play HTML',
