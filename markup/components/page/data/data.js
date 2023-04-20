@@ -118,7 +118,7 @@ const data = {
             title: 'Счетчик калорий',
             lead: 'JS-приложение',
             description:
-            "Написал приложение для&nbsp;подсчета калорий на&nbsp;нативном javascript, используя парадигму <a class='item-list__link' href='https://en.wikipedia.org/wiki/Object-oriented_programming' target='_blank'>объектно-ориентированного программирования</a>.<br>Архитектура&nbsp;&ndash; <a class='item-list__link' href='https://ru.wikipedia.org/wiki/Model-View-Controller' target='_blank'>MVC</a>, браузерная инфраструктура&nbsp;&ndash; <a class='item-list__link' href='https://webpack.js.org/' target='_blank'>webpack</a>.",
+              "Написал приложение для&nbsp;подсчета калорий на&nbsp;нативном javascript, используя парадигму <a class='item-list__link' href='https://en.wikipedia.org/wiki/Object-oriented_programming' target='_blank'>объектно-ориентированного программирования</a>.<br>Архитектура&nbsp;&ndash; <a class='item-list__link' href='https://ru.wikipedia.org/wiki/Model-View-Controller' target='_blank'>MVC</a>, браузерная инфраструктура&nbsp;&ndash; <a class='item-list__link' href='https://webpack.js.org/' target='_blank'>webpack</a>.",
             appLink: '_projects/calorie-counter/',
             repoLink: 'https://github.com/CalledByThe4ire/calorie-counter'
           },
@@ -146,14 +146,6 @@ const data = {
             repoLink: 'https://github.com/CalledByThe4ire/junior-course-boilerplate'
           },
           {
-            title: 'Contact Keeper',
-            lead: 'Full-stack-приложение',
-            description:
-              "Написал менеджер контактов на&nbsp;стеке&nbsp;<a class='item-list__link' href='https://www.mongodb.com/mern-stack' target='_blank'>MERN</a> с&nbsp;системой авторизации и&nbsp;хранением информации в&nbsp;базе данных. Клиентская часть реализована на&nbsp;<a class='item-list__link' href='https://ru.reactjs.org/' target='_blank'>React</a>, серверная часть&nbsp;&mdash; на&nbsp;<a class='item-list__link' href='https://nodejs.org/en/' target='_blank'>Node.js</a>, <a class='item-list__link' href='https://expressjs.com/' target='_blank'>Express</a>&nbsp;и&nbsp;<a class='item-list__link' href='https://www.mongodb.com/' target='_blank'>MongoDB</a>.",
-            appLink: 'https://arcane-wave-48254.herokuapp.com/',
-            repoLink: 'https://github.com/CalledByThe4ire/contact-keeper'
-          },
-          {
             title: "Conway's Game of Life",
             lead: 'JS-Приложение',
             description:
@@ -167,6 +159,14 @@ const data = {
             description:
               'Написал утилиту для поиска отличий в конфигурационных файлах. Реализована поддержка разных форматов, генерация отчетов в виде plain text, pretty, json, а также unit-тестирование',
             repoLink: 'https://github.com/CalledByThe4ire/frontend-project-lvl2'
+          },
+          {
+            title: 'Pink',
+            lead: 'Веб-сайт',
+            description:
+              "Проект сверстал с использованием препроцессоров <a class='item-list__link' href='https://pugjs.org/api/getting-started.html' target='_blank'>pug</a> и&nbsp;<a class='item-list__link' href='https://stylus-lang.com/' target='_blank'>stylus</a>, в&nbsp;качестве с&nbsp;методологии выбран <a class='item-list__link' href='https://ru.bem.info/' target='_blank'>БЭМ</a>.<br>Макет сделан максимально адаптивным и выглядит по-разному для&nbsp;мобильной, планшетной и&nbsp;десктопной версии. Раскладку всех компонентов страницы реализовал на&nbsp;<a class='item-list__link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox' target='_blank'>flexbox</a>, в&nbsp;качестве сеточной системы выбрал <a class='item-list__link' href='https://github.com/peterramsing/lost' target='_blank'>lost</a>.<br>Для каждого размера и&nbsp;разрешения экрана подготовил свой комплект изображений; всю&nbsp;декоративную графику собрал в&nbsp;спрайты, которые в&nbsp;свою очередь разделил на&nbsp;векторные и&nbsp;растровые с&nbsp;помощью соответствующих npm-пакетов.<br>Система сборки&nbsp;&ndash; <a class='item-list__link' href='https://gulpjs.com/' target='_blank'>gulp</a>.<br>Проект является дипломной работой <a class='item-list__link' href='https://htmlacademy.ru/intensive/adaptive' target='_blank'>продвинутого интенсива htmlacademy</a>, по&nbsp;итогам успешной защиты ( (100% выполненных заданий) ) получил <a class='item-list__link' href='http://andrey-karamnoff.ru/_sertificates/htmlacademy_css.jpg' target='_blank'>сертификат</a>.",
+            siteLink: '_projects/pink/',
+            repoLink: 'https://github.com/CalledByThe4ire/Pink'
           },
           {
             title: 'Painter',
@@ -189,14 +189,6 @@ const data = {
               "Сверстал проект на&nbsp;препроцессорах <a class='item-list__link' href='https://pugjs.org/api/getting-started.html' target='_blank'>pug</a> и&nbsp;<a class='item-list__link' href='https://sass-lang.com/' target='_blank'>scss</a>, нативном javascript, в&nbsp;соответствии с&nbsp;методологией <a class='item-list__link' href='https://ru.bem.info/' target='_blank'>БЭМ</a>.<br>Сеточную систему построил на&nbsp;<a class='item-list__link' href='http://susy.oddbird.net/' target='_blank'>susy</a>.",
             siteLink: '_projects/mishka/',
             repoLink: 'https://github.com/CalledByThe4ire/Mishka'
-          },
-          {
-            title: 'Pink',
-            lead: 'Веб-сайт',
-            description:
-              "Проект сверстал с использованием препроцессоров <a class='item-list__link' href='https://pugjs.org/api/getting-started.html' target='_blank'>pug</a> и&nbsp;<a class='item-list__link' href='https://stylus-lang.com/' target='_blank'>stylus</a>, в&nbsp;качестве с&nbsp;методологии выбран <a class='item-list__link' href='https://ru.bem.info/' target='_blank'>БЭМ</a>.<br>Макет сделан максимально адаптивным и выглядит по-разному для&nbsp;мобильной, планшетной и&nbsp;десктопной версии. Раскладку всех компонентов страницы реализовал на&nbsp;<a class='item-list__link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox' target='_blank'>flexbox</a>, в&nbsp;качестве сеточной системы выбрал <a class='item-list__link' href='https://github.com/peterramsing/lost' target='_blank'>lost</a>.<br>Для каждого размера и&nbsp;разрешения экрана подготовил свой комплект изображений; всю&nbsp;декоративную графику собрал в&nbsp;спрайты, которые в&nbsp;свою очередь разделил на&nbsp;векторные и&nbsp;растровые с&nbsp;помощью соответствующих npm-пакетов.<br>Система сборки&nbsp;&ndash; <a class='item-list__link' href='https://gulpjs.com/' target='_blank'>gulp</a>.<br>Проект является дипломной работой <a class='item-list__link' href='https://htmlacademy.ru/intensive/adaptive' target='_blank'>продвинутого интенсива htmlacademy</a>, по&nbsp;итогам успешной защиты ( (100% выполненных заданий) ) получил <a class='item-list__link' href='http://andrey-karamnoff.ru/_sertificates/htmlacademy_css.jpg' target='_blank'>сертификат</a>.",
-            siteLink: '_projects/pink/',
-            repoLink: 'https://github.com/CalledByThe4ire/Pink'
           }
         ]
       }
